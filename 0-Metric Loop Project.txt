@@ -1,0 +1,27 @@
+	Metrix Loop Project
+
+	Goal: recreate Metrix opening sence
+
+	How it work: receate random japenese charaters (katakana style) with M,E,T,R,I,X letter combinde. by using RNG Project to generate random number then just switch statement to convert those rng number to cout character, RNG Project use time as seed so that everytime it start it wont be simular.
+	
+	Japansese character (46): 	ア	イ	ウ	エ	オ	
+					カ	キ	ク	ケ	コ	
+					サ	シ	ス	セ	ソ
+					タ	チ	ツ	テ	ト
+					ナ	ニ	ヌ	ネ	ノ
+					ハ	ヒ	フ	ヘ	ホ
+					マ	ミ	ム	メ	モ
+					ヤ		ユ		ヨ
+					ラ	リ	ル	レ	ロ
+					ワ				ヲ
+									ン		
+	English charater (6):	M,E,T,R,I,X
+
+	Problem: in Linux unicode character seem to be work by default but somehow windows commad promt don't.
+	Solution (windows):  control panel>rigoun and languages>administrative>language for non-unicode programs>changesystem location>choose Japanese>Ok.
+
+Metrix 0 == binary loop
+Metrix 1 == binary loop+color
+Metrix 2 == rng character
+Metrix 3 == Metrix 2 with delay (too slow)
+Metrix 4 == metrix 2 with red and green
